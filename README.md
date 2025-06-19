@@ -1,3 +1,4 @@
+``` 
 # Carregar o pacote necessário
 library(dplyr)
 
@@ -40,4 +41,4 @@ ggplot(total_questions_by_tag[1:5, ], aes(x = reorder(tag, total_questions), y =
   geom_bar(stat = "identity", fill = "skyblue") +
   labs(title = "Top 5 Tags Mais Populares (2015-2020)", x = "Tag", y = "Total de Perguntas") +
   theme_minimal()
-
+```
